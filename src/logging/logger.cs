@@ -10,7 +10,7 @@ namespace ReLIB.logging
 
         public static ConcurrentBag<string> Log = new ConcurrentBag<string>();
 
-        private static Logger logger = new Logger("Shadow Lib Log Manager", "1.0.0");
+        private static Logger logger = new Logger("ReLib Log Manager", "1.1.0");
         public static void StartLogManager()
         {
             try

@@ -54,7 +54,7 @@ public sealed class ReLIBMod : BaseUnityPlugin
 public static class ReLIB
 {
     public const string ModId = "com.rendevouzrs_entertainment.relib";
-    public const string ModVersion = "0.1.0";
+    public const string ModVersion = "1.1.0";
     public static bool IsDev = false;
     private static Logger logger = new Logger(ModId, ModVersion);
     private static CoroutineExecuter instance;
